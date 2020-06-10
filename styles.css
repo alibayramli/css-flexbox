@@ -1,0 +1,21 @@
+.container {
+    border: 6px solid black;
+    
+}
+.items {
+    text-align: center;
+    padding: 1rem;
+    color: white;
+}
+.item-1 {
+    background-color: red;
+}
+.item-2 {
+    background-color: green;
+}
+.item-3 {
+    background-color: yellow;
+}
+.item-4 {
+    background-color: blue  ;
+}
