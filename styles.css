@@ -1,6 +1,8 @@
 .container {
     border: 6px solid black;
-    
+    display: flex;
+    height: 800px;
+    align-items: baseline;
 }
 .items {
     text-align: center;
@@ -9,12 +11,15 @@
 }
 .item-1 {
     background-color: red;
+    font-size: 200%;
 }
 .item-2 {
     background-color: green;
+    padding-bottom: 4rem;
 }
 .item-3 {
     background-color: yellow;
+    padding-top: 4rem;
 }
 .item-4 {
     background-color: blue  ;
