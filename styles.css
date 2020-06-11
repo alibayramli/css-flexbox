@@ -10,20 +10,21 @@
     padding: 1rem;
     color: white;   
     font-size: 3rem;
+    flex-grow: 1; /* all subitems grow evenly */
 }
 .item-1 {
     background-color: red; 
-    order: 2;
 }
 .item-2 {
     background-color: green;
+    flex-grow: 1;
 }
 .item-3 {
     background-color: yellow;
-    order: 1;
 }
 .item-4 {
     background-color: blue  ;
+    flex-grow: 3;
 }
 .item-5 {
     background-color: lawngreen  ;
@@ -33,5 +34,4 @@
 }
 .item-7 {
     background-color: saddlebrown;
-    order: 1;
 }
