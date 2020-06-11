@@ -1,30 +1,27 @@
 .container {
     border: 6px solid black;
     display: flex;
-    flex-wrap: wrap;
-    height: 800px;
-    align-content: space-between;
+   
 }
 .items {
     text-align: center;
     padding: 1rem;
     color: white;   
     font-size: 3rem;
-    flex-grow: 1; /* all subitems grow evenly */
+    width: 8rem;
 }
 .item-1 {
     background-color: red; 
+    flex-basis: 400px;
 }
 .item-2 {
     background-color: green;
-    flex-grow: 1;
 }
 .item-3 {
     background-color: yellow;
 }
 .item-4 {
     background-color: blue  ;
-    flex-grow: 3;
 }
 .item-5 {
     background-color: lawngreen  ;
