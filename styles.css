@@ -9,10 +9,10 @@
     color: white;   
     font-size: 3rem;
     width: 8rem;
+    flex: 0 1 auto; /* shorthand for flex-grow, shrink and basis. In three-value ones first: grow, second:shrink, third:basis*/ 
 }
 .item-1 {
     background-color: red; 
-    flex-basis: 400px;
 }
 .item-2 {
     background-color: green;
