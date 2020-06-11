@@ -13,12 +13,14 @@
 }
 .item-1 {
     background-color: red; 
+    order: 2;
 }
 .item-2 {
     background-color: green;
 }
 .item-3 {
     background-color: yellow;
+    order: 1;
 }
 .item-4 {
     background-color: blue  ;
@@ -28,4 +30,8 @@
 }
 .item-6 {
     background-color: purple  ;
+}
+.item-7 {
+    background-color: saddlebrown;
+    order: 1;
 }
