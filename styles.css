@@ -1,7 +1,8 @@
 .container {
     border: 6px solid black;
     display: flex;
-   
+    height: 500px;
+    align-items: flex-end;
 }
 .items {
     text-align: center;
@@ -9,26 +10,31 @@
     color: white;   
     font-size: 3rem;
     width: 8rem;
-    flex: 0 1 auto; /* shorthand for flex-grow, shrink and basis. In three-value ones first: grow, second:shrink, third:basis*/ 
 }
 .item-1 {
     background-color: red; 
+    align-self: flex-end;
 }
 .item-2 {
     background-color: green;
+    align-self: flex-start;
 }
 .item-3 {
     background-color: yellow;
+    align-self: stretch;
 }
+
 .item-4 {
-    background-color: blue  ;
+    background-color: blue;
+    align-self: center;
 }
 .item-5 {
-    background-color: lawngreen  ;
+    background-color: lawngreen;  
+    /* align-self: auto (by default), takes the value of align-items of the parent element. */
 }
 .item-6 {
-    background-color: purple  ;
+    background-color: purple;
 }
 .item-7 {
-    background-color: saddlebrown;
+    background-color: saddlebrown; 
 }
