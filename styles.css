@@ -1,26 +1,31 @@
 .container {
     border: 6px solid black;
     display: flex;
+    flex-wrap: wrap;
     height: 800px;
-    align-items: baseline;
+    align-content: space-between;
 }
 .items {
     text-align: center;
     padding: 1rem;
-    color: white;
+    color: white;   
+    font-size: 3rem;
 }
 .item-1 {
-    background-color: red;
-    font-size: 200%;
+    background-color: red; 
 }
 .item-2 {
     background-color: green;
-    padding-bottom: 4rem;
 }
 .item-3 {
     background-color: yellow;
-    padding-top: 4rem;
 }
 .item-4 {
     background-color: blue  ;
+}
+.item-5 {
+    background-color: lawngreen  ;
+}
+.item-6 {
+    background-color: purple  ;
 }
