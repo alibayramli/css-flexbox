@@ -1,40 +1,31 @@
-.container {
-    border: 6px solid black;
+body {
+    margin: 0 auto;
+}
+nav {
+    font-size: 2rem;
+    background-color: #f1f1f1;
+}
+nav ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
     display: flex;
-    height: 500px;
-    align-items: flex-end;
 }
-.items {
+nav ul li {
+    cursor: pointer;
+    padding: 0.5rem;
+    flex: auto;    
     text-align: center;
-    padding: 1rem;
-    color: white;   
-    font-size: 3rem;
-    width: 8rem;
 }
-.item-1 {
-    background-color: red; 
-    align-self: flex-end;
+nav ul li:hover {
+    background-color: #555;
+    color: white;
 }
-.item-2 {
-    background-color: green;
-    align-self: flex-start;
-}
-.item-3 {
-    background-color: yellow;
-    align-self: stretch;
-}
-
-.item-4 {
-    background-color: blue;
-    align-self: center;
-}
-.item-5 {
-    background-color: lawngreen;  
-    /* align-self: auto (by default), takes the value of align-items of the parent element. */
-}
-.item-6 {
-    background-color: purple;
-}
-.item-7 {
-    background-color: saddlebrown; 
+@media all and (max-width: 500px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li {
+        text-align: center;
+    }
 }
